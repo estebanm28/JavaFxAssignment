@@ -4,14 +4,25 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+
+<!-- Root layout is a BorderPane -->
 <BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.assignment1java.tableViewController">
+
+    <!-- Center area of the BorderPane contains the TableView -->
     <center>
+        <!-- Define a TableView with an ID for reference in the controller -->
         <TableView fx:id="tableView">
+            <!-- Define the columns of the TableView -->
             <columns>
+                <!-- Column for video game names with an ID for reference in the controller -->
                 <TableColumn fx:id="videoGameNameColumn" text="Name"/>
+                <!-- Column for platform with an ID for reference in the controller -->
                 <TableColumn fx:id="platformColumn" text="Platform"/>
+                <!-- Column for release year with an ID for reference in the controller -->
                 <TableColumn fx:id="releaseYearColumn" text="Release Year"/>
+                <!-- Column for user ratings with an ID for reference in the controller -->
                 <TableColumn fx:id="ratingColumn" text="User's Rating"/>
+                <!-- Column for amount of sales with an ID for reference in the controller -->
                 <TableColumn fx:id="salesColumn" text="Amount of sales"/>
             </columns>
         </TableView>
