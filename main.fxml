@@ -6,13 +6,19 @@
 <?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+
+<!-- Root layout is a BorderPane -->
 <BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.assignment1java.controller">
 
+    <!-- Center area of the BorderPane contains the BarChart -->
     <center>
+        <!-- Define a BarChart with an ID for reference in the controller -->
         <BarChart fx:id="barChart" title="Video Game Sales Data">
+            <!-- Define the x-axis as a CategoryAxis with a label -->
             <xAxis>
                 <CategoryAxis label="Video Games"/>
             </xAxis>
+            <!-- Define the y-axis as a NumberAxis with a label -->
             <yAxis>
                 <NumberAxis label="Amount of Sales"/>
             </yAxis>
