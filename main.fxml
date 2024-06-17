@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.assignment1java.controller">
+
+    <center>
+        <BarChart fx:id="barChart" title="Video Game Sales Data">
+            <xAxis>
+                <CategoryAxis label="Video Games"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Amount of Sales"/>
+            </yAxis>
+        </BarChart>
+    </center>
+</BorderPane>

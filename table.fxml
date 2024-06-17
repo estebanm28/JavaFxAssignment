@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.assignment1java.tableViewController">
+    <center>
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="videoGameNameColumn" text="Name"/>
+                <TableColumn fx:id="platformColumn" text="Platform"/>
+                <TableColumn fx:id="releaseYearColumn" text="Release Year"/>
+                <TableColumn fx:id="ratingColumn" text="User's Rating"/>
+                <TableColumn fx:id="salesColumn" text="Amount of sales"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
